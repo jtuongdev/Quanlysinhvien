@@ -24,7 +24,7 @@ mongoose
         console.log("MongoDB Atlas connected successfully!");
 
         app.listen(PORT, () => {
-            console.log(`Server đang chạy tại http://localhost:${PORT}`);
+            console.log(`Server đang chạy tại kết nối thành công mongodb http://localhost:${PORT}`);
         });
     })
     .catch((error) => {
