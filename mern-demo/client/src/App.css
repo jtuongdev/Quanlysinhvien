@@ -1,0 +1,116 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.student-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.student-form input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  min-width: 150px;
+  font-size: 14px;
+}
+
+.student-form button {
+  padding: 10px 25px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.student-form button:hover {
+  background: #0056b3;
+}
+
+.student-form button[type="button"] {
+  background: #6c757d;
+}
+
+.student-form button[type="button"]:hover {
+  background: #5a6268;
+}
+
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.student-table th {
+  background: #343a40;
+  color: white;
+  padding: 12px;
+  text-align: left;
+}
+
+.student-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.student-table tr:hover {
+  background: #f8f9fa;
+}
+
+.student-table button {
+  padding: 5px 12px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.student-table button:first-child {
+  background: #ffc107;
+  color: #333;
+}
+
+.student-table button:first-child:hover {
+  background: #e0a800;
+}
+
+.student-table button:last-child {
+  background: #dc3545;
+  color: white;
+}
+
+.student-table button:last-child:hover {
+  background: #c82333;
+}
+
+.loading {
+  text-align: center;
+  padding: 50px;
+  font-size: 18px;
+  color: #666;
+}
+
+.error {
+  color: #dc3545;
+  text-align: center;
+  padding: 20px;
+}
